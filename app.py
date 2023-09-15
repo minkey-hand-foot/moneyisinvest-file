@@ -3,7 +3,7 @@ from flask_restful import Resource, Api
 from werkzeug.utils import secure_filename
 import os, uuid
 
-UPLOAD_FOLDER = '../'
+UPLOAD_FOLDER = '/app/files'
 
 app = Flask(__name__)
 api = Api(app)
